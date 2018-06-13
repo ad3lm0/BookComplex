@@ -2,7 +2,6 @@
 //  CellTableViewCell.swift
 //  BookComplex
 //
-//  Created by José Carlos Araújo on 10/06/2018.
 //  Copyright © 2018 Adelmo Oliveira. All rights reserved.
 //
 

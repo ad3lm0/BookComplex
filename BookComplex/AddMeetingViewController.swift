@@ -2,7 +2,6 @@
 //  AddMeetingViewController.swift
 //  BookComplex
 //
-//  Created by José Carlos Araújo on 10/06/2018.
 //  Copyright © 2018 Adelmo Oliveira. All rights reserved.
 //
 
@@ -68,8 +67,8 @@ class AddMeetingViewController: UIViewController {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd/MM/yyyy"
         let selectedDate = dateFormatter.string(from: date)
-        MeetingDate.append(selectedDate)
-        MeetingMinutes.append(textView.text)
+        meetingDate.append(selectedDate)
+        meetingMinute.append(textView.text)
     
         let alertController = UIAlertController(title: "Informação", message:
             "Registro salvo com sucesso", preferredStyle: UIAlertControllerStyle.alert)

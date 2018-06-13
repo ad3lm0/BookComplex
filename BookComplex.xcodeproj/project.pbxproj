@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		600055A320D0957E00ED2A97 /* InitVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600055A220D0957E00ED2A97 /* InitVariables.swift */; };
 		60A9D8C420CDE9F1009A1EB3 /* AddMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A9D8C320CDE9F1009A1EB3 /* AddMeetingViewController.swift */; };
 		60E6D15620CD961B00E336BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E6D15520CD961B00E336BB /* AppDelegate.swift */; };
 		60E6D15820CD961B00E336BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E6D15720CD961B00E336BB /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		600055A220D0957E00ED2A97 /* InitVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitVariables.swift; sourceTree = "<group>"; };
 		60A9D8C320CDE9F1009A1EB3 /* AddMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeetingViewController.swift; sourceTree = "<group>"; };
 		60E6D15220CD961B00E336BB /* BookComplex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookComplex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E6D15520CD961B00E336BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				60E6D16420CD961B00E336BB /* Info.plist */,
 				60E6D15C20CD961B00E336BB /* BookComplex.xcdatamodeld */,
 				60E6D18820CDBF2700E336BB /* DetailViewController.swift */,
+				600055A220D0957E00ED2A97 /* InitVariables.swift */,
 			);
 			path = BookComplex;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				60E6D18920CDBF2700E336BB /* DetailViewController.swift in Sources */,
 				60E6D15620CD961B00E336BB /* AppDelegate.swift in Sources */,
 				60E6D15E20CD961B00E336BB /* BookComplex.xcdatamodeld in Sources */,
+				600055A320D0957E00ED2A97 /* InitVariables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

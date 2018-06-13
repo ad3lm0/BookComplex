@@ -2,7 +2,6 @@
 //  DetailViewController.swift
 //  BookComplex
 //
-//  Created by José Carlos Araújo on 10/06/2018.
 //  Copyright © 2018 Adelmo Oliveira. All rights reserved.
 //
 
@@ -13,15 +12,15 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var minuteTxt: UITextView!
     
-    var MeetingDate = ""
-    var MeetingMinutes = ""
+    var meetingDate = ""
+    var meetingMinutes = ""
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        titleLbl.text = "Reunião do dia " + MeetingDate
-        minuteTxt.text = MeetingMinutes
+        titleLbl.text = "Reunião do dia " + meetingDate
+        minuteTxt.text = meetingMinutes
         
     }
 
